@@ -1,5 +1,5 @@
-name: 'Trigger Open PRs workflow'
-description: 'Trigger Open PRs workflow'
+name: 'Re-trigger Workflows on open PRs when base updates'
+description: 'After base get some updates (PR merged), re-run specific workflow of all open PRs'
 
 inputs:
   token:
