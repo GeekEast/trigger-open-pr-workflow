@@ -1,0 +1,17 @@
+{
+  "eslint.packageManager": "yarn",
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.associations": {
+    "*.env.local": "env",
+    "*.env.qa": "env",
+    "*.env.sandbox": "env",
+    "*.env.product": "env",
+    "*.env.test": "env"
+  }
+}
