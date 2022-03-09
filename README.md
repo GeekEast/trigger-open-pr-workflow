@@ -26,3 +26,6 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }} # genereate a personal token, don't use the default secrets.GTIHUB_TOKEN
           workflow_filename: 'pipeline.yml'
 ```
+
+## Sample Project
+- [worfklow-trigger-me](https://github.com/GeekEast/workflow-trigger-me)
